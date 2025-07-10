@@ -1,0 +1,89 @@
+/* Reuseable */
+.primary {
+    color: #4E47FF;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.bg-primary {
+    background-color: #4E47FF;
+}
+
+.raleway {
+    font-family: 'Raleway';
+}
+
+.inter {
+    font-family: 'Inter';
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+/* Main CSS */
+header {
+    background-image: url(/Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 0 0 0;
+    margin-bottom: 100px;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.signUP {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    height: 40px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+    gap: 10px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.heading h1 {
+    margin-bottom: 30px;
+}
+
+.sf-btn {
+    width: fit-content;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 36px;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+}
