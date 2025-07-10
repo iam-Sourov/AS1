@@ -29,11 +29,12 @@
 
 
 
-/* Main CSS */
+/* Header CSS */
 header {
     background-image: url(/Assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 690px;
     margin-bottom: 100px;
 
 
@@ -86,4 +87,72 @@ nav {
     align-items: center;
     border-radius: 10px;
     border: none;
+}
+
+
+/* Second Section */
+.webFlow {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.webFlow img {
+    border-radius: 48px;
+}
+
+.web {
+    margin-right: 120px;
+}
+
+.web h1 {
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.web p {
+    color: #25243280;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.lp-btn {
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.users {
+    display: flex;
+    width: 1140px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 50px 80px;
+    gap: 15px;
+    background-color: #4E47FF1A;
+    border-radius: 24px;
+    margin-bottom: 130px;
+}
+.Productive-Users {
+    display: flex;
+    gap: 150px;
+}
+.Productive-Users h1 {
+    font-size: 80px;
+    margin-bottom: 0;
+}
+.Productive-Users p {
+    font-size: 20px;
+    margin: 0;
+    font-family: inter;
+    color: #00000080;
 }
