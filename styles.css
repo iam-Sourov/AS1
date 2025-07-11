@@ -39,7 +39,7 @@ button {
 
 /* Header CSS */
 header {
-    background-image: url(/images/Hero-bg.png);
+    background-image: url(images/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 150px;
